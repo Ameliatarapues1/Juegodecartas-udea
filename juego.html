@@ -3,6 +3,7 @@
 <head>
     <title>Juguemos al apuntado!</title>
     <link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+    <script src="codigo/app.js"></script>
 </head>
 
 <body>
@@ -19,18 +20,11 @@
     </div>
 
     <div id="tablero">
+        
 
     </div>
 
-    <script>
-        function repartir(){
-            let tablero=document.getElementById("tablero");
-            let carta=document.createElement("img");
-            let indice=Math.floor(Math.random()*52) + 1;
-            carta.src="imagenes/cartas/Carta"+indice+".jpg";
-            tablero.appendChild(carta);
-        }
-    </script>
+    
 </body>
 
 </html>
