@@ -56,7 +56,7 @@ h1 {
     /* Añadir flexbox para organizar las cartas como alternativa */
     justify-content: center;
     /* Centrar las cartas en la mesa */
-    align-items: flex-start;
+    align-items: center;
     /* Alinear cartas al inicio verticalmente */
     flex-wrap: wrap;
     /* Permitir que las cartas pasen a la siguiente línea */
